@@ -5,4 +5,4 @@ highlighter: pygments
 safe: false
 title: 'Ammy API'
 sass:
-  sass_dir: _sass
+  sass_dir: ./assets
