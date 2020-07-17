@@ -1,6 +1,7 @@
-<h1>{{ site.title }}</h1>
+<h1><img src="/assets/logo.svg" class="styled"></h1>
+<h2 class="version">v3.0 - juillet 2020</h2>
 <ul id='links'>
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
     {% if post.category == null %}
     <li><a href='#{{ post.url }}'>{{ post.title }}</a></li>
     {% endif %}
@@ -9,7 +10,7 @@
   <li><h2>{{ category | first }}</h2>
     <ul>
     {% for posts in category %}
-      {% for post in posts %}        
+      {% for post in posts reversed%}
         <li class='{{ post.type }}'><a href='#{{ post.url }}'>{{ post.title }}</a></li>
       {% endfor %}
     {% endfor %}
