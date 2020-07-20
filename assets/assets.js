@@ -9666,13 +9666,24 @@ var $ = require('jquery'),
     Filter = require('filter');
 
 // Collapsible articles
+const hideAll = () => {
+  document.querySelectorAll("article > .body").forEach((a) =>
+    $(a).slideUp('fast'))
+}
+
 $('article').each(function () {
     var that = $(this);
     var header = that.children('a');
     var body = that.children('.body');
     body.hide();
     header.toggle(
-        function () { body.slideDown('fast'); that.addClass('active'); },
+        function () { hideAll(); body.slideDown('fast', () => {
+          console.log("-->", that.find("> a").get(0).name);
+          history.pushState({},"", `/#${that.find("> a").get(0).name}`)
+          $([document.documentElement, document.body]).animate({
+              scrollTop: that.offset().top - 50
+          }, 800);
+        }); that.addClass('active'); },
         function () { body.slideUp('fast'); that.removeClass('active'); }
     );
 });

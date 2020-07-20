@@ -5,19 +5,25 @@ img.styled {
 }
 .version {
   text-align: center;
-  background: #1d1d1d;
+  background: #f1f1f1;
   padding: 5px;
+  margin: 0;
 }
 #content {
-  max-width: 70vw;
-  margin: 0 auto;
+  text-align: center;
+  > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  > div.articles-wrapper {
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: left;
+  }
   article {
     > a {
-      background: #3e3e3e;
       @include rounded-corners(8px);
-      &:hover {
-        background: #5d5d5d;
-      }
     }
     &.active {
 
@@ -42,6 +48,7 @@ span.read-only {
 body {
   background: #212121;
   color: white;
+  height: auto;
 }
 pre {
   padding: 10px;
@@ -79,6 +86,12 @@ table {
   }
 }
 #sidebar {
-  position: fixed;
   top: 0;
+  background: #f7f7f7;
+  h1 {
+    background: $lightgray;
+  }
+  ul li a {
+    color: #333;
+  }
 }

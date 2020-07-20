@@ -5,9 +5,6 @@ layout: null
 
 
 ---
-
-### Communauté
-
 Nom technique :
 
 ```

@@ -5,9 +5,6 @@ layout: null
 
 
 ---
-
-### Groupe
-
 Nom technique :
 
 ```
