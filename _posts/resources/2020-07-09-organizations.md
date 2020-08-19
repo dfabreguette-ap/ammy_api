@@ -1,3 +1,9 @@
+---
+title: Communautés
+category: Type de resources
+layout: null
+
+---
 Nom technique :
 
 ```
