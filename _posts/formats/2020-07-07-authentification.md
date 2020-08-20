@@ -5,7 +5,7 @@ url_path: "/oauth/token.json"
 type: POST
 ---
 
-Une fois votre compte API activé, Ammy vous donne des identifiants uniques d'accès à l'API : 
+Une fois votre compte API activé, Ammy vous donne des identifiants uniques d'accès à l'API :
 
 - Identifiant d'application cliente (client_id)
 - Mot de passe d'application cliente (client_secret)
@@ -18,7 +18,6 @@ Ce jeton d'accès doit ensuite être intégré soit en paramètre à chaque requ
 
 | Paramètre     | **Type** | Description                                                  |
 | ------------- | -------- | ------------------------------------------------------------ |
-| access_token  | string   | OAuth AccessToken                                            |
 | grant_type    | string   | Typically, just stick to "client_credentials" mode. Use "refresh_token" with a "refresh_token" parameter to re-create a new token. A list of OAuth available grant types is available here : https://aaronparecki.com/oauth-2-simplified/#authorization |
 | client_id     | string   | Application UID                                              |
 | client_secret | string   | Application Secret                                           |
