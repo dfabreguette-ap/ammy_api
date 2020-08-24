@@ -31,8 +31,8 @@ La représentation JSON d'un groupe est la suivante :
 | --------------------- | ------------- | ------ | ------------------------------------------------------------ | -------------------------------------------------------- |
 | id <span class="read-only" data-text="LECTURE SEULE"></span>                   | string        | -      | Identifiant unique du groupe                                 | 5e591e9ed3949d23c6b72ade                                 |
 | name                  | string        | oui    | Nom du groupe                                                | Membres                                                  |
-| owner_type            | string        | oui    | Type de la resource propriétaire du groupe (Organization) | Organization                                             |
-| owner_id              | string        | oui    | Identifiant de la resource propriétaire du groupe            | 5a54e226d95bd83fcd736f1d                                 |
+| owner_type            | string        | oui    | Type de la ressource propriétaire du groupe (Organization) | Organization                                             |
+| owner_id              | string        | oui    | Identifiant de la ressource propriétaire du groupe            | 5a54e226d95bd83fcd736f1d                                 |
 | parent_user_group_ids | array[string] | non    | Identifiants des groupes parents du groupe                   | ["5a54e226d95bd83fcd736f1b", "5a54e226d95bd83fcd736f1e"] |
 | updated_at <span class="read-only" data-text="LECTURE SEULE"></span>           | date          | -      | Date de dernière modification                                | 2020-07-17T12:30:33+02:00                                |
 | created_at <span class="read-only" data-text="LECTURE SEULE"></span>           | date          | -      | Date de création                                             | 2020-07-17T12:30:33+02:00                                |

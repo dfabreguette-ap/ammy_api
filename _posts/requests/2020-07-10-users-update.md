@@ -10,7 +10,7 @@ layout: null
 
 | Paramètre | **Type** | Mode de transmission | Description                |
 | --------- | -------- | -------------------- | -------------------------- |
-| id           | string       | query                | Identifiant de la resource                                   |
+| id           | string       | query                | Identifiant de la ressource                                   |
 | user        | user   | body                | Tout ou partie des paramètres d'utilisateur (en tenant compte des paramètres requis) |
 
 Exemple :
@@ -19,7 +19,7 @@ Exemple :
 {
   user: {
     "first_name": "John"
-    // ... voir type de resource "User"
+    // ... voir type de ressource "User"
   }
 }
 ```
@@ -27,7 +27,7 @@ Exemple :
 
 ### Réponse
 
-Retourne une représentation de la resource :
+Retourne une représentation de la ressource :
 
 ```
 user
@@ -39,6 +39,6 @@ Exemple :
 {
   "id": "5a54e226d95bd83fcd736f1e",
   "first_name": "John",
-  // ... voir type de resource "User"
+  // ... voir type de ressource "User"
 }
 ```

@@ -18,7 +18,7 @@ Exemple :
 {
   organization: {
     "name": "Pétanque",
-    // ... voir type de resource "UserGroup"
+    // ... voir type de ressource "UserGroup"
   }
 }
 ```
@@ -26,7 +26,7 @@ Exemple :
 
 ### Réponse
 
-Retourne une représentation de la resource :
+Retourne une représentation de la ressource :
 
 ```
 user_group
@@ -38,6 +38,6 @@ Exemple :
 {
   "id": "5a54e226d95bd83fcd736f1e",
   "name": "Pétanque",
-  // ... voir type de resource "UserGroup"
+  // ... voir type de ressource "UserGroup"
 }
 ```

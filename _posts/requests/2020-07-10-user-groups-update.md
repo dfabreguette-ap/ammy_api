@@ -10,7 +10,7 @@ layout: null
 
 | Paramètre    | **Type**     | Mode de transmission | Description                                                  |
 | ------------ | ------------ | -------------------- | ------------------------------------------------------------ |
-| id           | string       | query                | Identifiant de la resource                                   |
+| id           | string       | query                | Identifiant de la ressource                                   |
 | user_group | user_group | body                 | Tout ou partie des paramètres (en tenant compte des paramètres requis) |
 
 Exemple :
@@ -19,7 +19,7 @@ Exemple :
 {
   user_group: {
     "name": "Membres"
-    // ... voir type de resource "UserGroup"
+    // ... voir type de ressource "UserGroup"
   }
 }
 ```
@@ -27,7 +27,7 @@ Exemple :
 
 ### Réponse
 
-Retourne une représentation de la resource :
+Retourne une représentation de la ressource :
 
 ```
 user_group
@@ -39,6 +39,6 @@ Exemple :
 {
   "id": "5a54e226d95bd83fcd736f1d",
   "name": "Membres",
-  // ... voir type de resource "UserGroup"
+  // ... voir type de ressource "UserGroup"
 }
 ```

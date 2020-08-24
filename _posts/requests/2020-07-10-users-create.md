@@ -19,7 +19,7 @@ Exemple :
   organization: {
     "first_name": "John",
     "last_name": "Doe",
-    // ... voir type de resource "Utilisateur"
+    // ... voir type de ressource "User"
   }
 }
 ```
@@ -27,7 +27,7 @@ Exemple :
 
 ### Réponse
 
-Retourne une représentation de la resource :
+Retourne une représentation de la ressource :
 
 ```
 user
@@ -39,6 +39,6 @@ Exemple :
 {
   "id": "5a54e226d95bd83fcd736f1e",
   "slug": "john-d",
-  // ... voir type de resource "Utilisateur"
+  // ... voir type de ressource "User"
 }
 ```

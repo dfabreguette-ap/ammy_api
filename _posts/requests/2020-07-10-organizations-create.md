@@ -18,7 +18,7 @@ Exemple :
 {
   organization: {
     "name": "Ma Communauté"
-    // ... voir type de resource "Communauté"
+    // ... voir type de ressource "Communauté"
   }
 }
 ```
@@ -26,7 +26,7 @@ Exemple :
 
 ### Réponse
 
-Retourne une représentation de la resource :
+Retourne une représentation de la ressource :
 
 ```
 organization
@@ -38,6 +38,6 @@ Exemple :
 {
   "id": "5a54e226d95bd83fcd736f1d",
   "slug": "ma-communaute",
-  // ... voir type de resource "Communauté"
+  // ... voir type de ressource "Communauté"
 }
 ```

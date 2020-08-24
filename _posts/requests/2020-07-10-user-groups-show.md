@@ -26,6 +26,6 @@ Exemple :
 {
   "id": "5a54e226d95bd83fcd736f1e",
   "name": "Membres",
-  // ... voir type de resource "UserGroup"
+  // ... voir type de ressource "UserGroup"
 }
 ```

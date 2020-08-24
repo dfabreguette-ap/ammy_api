@@ -10,7 +10,7 @@ layout: null
 
 | Paramètre    | **Type**     | Mode de transmission | Description                                                  |
 | ------------ | ------------ | -------------------- | ------------------------------------------------------------ |
-| id           | string       | query                | Identifiant de la resource                                   |
+| id           | string       | query                | Identifiant de la ressource                                   |
 | organization | organization | body                 | Tout ou partie des paramètres de communauté (en tenant compte des paramètres requis) |
 
 Exemple :
@@ -19,7 +19,7 @@ Exemple :
 {
   organization: {
     "name": "Ma Communauté"
-    // ... voir type de resource "Communauté"
+    // ... voir type de ressource "Communauté"
   }
 }
 ```
@@ -27,7 +27,7 @@ Exemple :
 
 ### Réponse
 
-Retourne une représentation de la resource :
+Retourne une représentation de la ressource :
 
 ```
 organization
@@ -39,6 +39,6 @@ Exemple :
 {
   "id": "5a54e226d95bd83fcd736f1d",
   "slug": "ma-communaute",
-  // ... voir type de resource "Communauté"
+  // ... voir type de ressource "Communauté"
 }
 ```

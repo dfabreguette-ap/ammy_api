@@ -10,11 +10,11 @@ layout: null
 
 | Paramètre | **Type** | Mode de transmission | Description                |
 | --------- | -------- | -------------------- | -------------------------- |
-| Id        | string   | query                | Identifiant de la resource |
+| Id        | string   | query                | Identifiant de la ressource |
 
 ### Réponse
 
-Retourne une représentation de la resource :
+Retourne une représentation de la ressource :
 
 ```
 user
@@ -26,6 +26,6 @@ Exemple :
 {
   "id": "5a54e226d95bd83fcd736f1e",
   "first_name": "John",
-  // ... voir type de resource "Communauté"
+  // ... voir type de ressource "User"
 }
 ```
