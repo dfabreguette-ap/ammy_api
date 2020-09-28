@@ -1,7 +1,7 @@
 ---
 title: organizations#status
 category: Notifications
-url_path: "/notifications/organizations/status/:id.json"
+url_path: "/notifications/organizations/:id/status.json"
 type: POST
 layout: null
 ---
