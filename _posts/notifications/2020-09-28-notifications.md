@@ -17,3 +17,10 @@ devient active.
 | Id        | string   | query                | Identifiant de la ressource |
 | organization | organization | body          | Tout ou partie des paramètres de communauté (en tenant compte des paramètres requis) |
 | status | String | body          | Statut de la communauté : ["active", "inactive"] |
+
+Une URL de tests permet de forcer le lancement de la notification,
+en appelant :
+
+GET /api/v3/tests/notifications/organizations/:id/status
+
+Veuillez noter que cette notification renverra quoi qu'il arrive le statut actuel de la communauté donnée.
