@@ -2,7 +2,7 @@
 title: user_groups#index
 category: Requêtes
 url_path: "/organizations/:organization_id/user_groups(/pour/:user_id)(/page/:page)(/per/:per).json"
-type: POST
+type: GET
 layout: null
 ---
 
